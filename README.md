@@ -6,6 +6,9 @@ Deploy Marquez
 git clone https://github.com/MarquezProject/marquez.git && cd marquez
 
 ./docker/up.sh
+
+# If virtual memory areas is too low
+sudo sysctl -w vm.max_map_count=262144
 ```
 
 Start a run
