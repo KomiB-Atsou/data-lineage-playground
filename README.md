@@ -1,5 +1,5 @@
 # data-lineage-playground
-Data lineage playground using OpenLineage
+Data lineage playground using OpenLineage and Marquez
 
 Deploy Marquez
 ```
